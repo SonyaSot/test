@@ -49,8 +49,8 @@ foreach ($qs as $q) {
 
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label for="option1<?=$q['qid'];?>">
-                        <input type="radio"  name="<?=$q['qid'];?>" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label class="radio0">
+                        <input type="radio" name="<?=$q['qid'];?>" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -69,7 +69,7 @@ foreach ($qs as $q) {
                     </label>
         
   
-              <label for="option2<?=$q['qid'];?>">
+              <label class="radio1">
                         <input type="radio" name="<?=$q['qid'];?>" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
@@ -81,7 +81,7 @@ foreach ($qs as $q) {
                            </svg>
                         
                     </label>
-                      <label for="option3<?=$q['qid'];?>">
+                      <label class="radio2">
                       <input type="radio" name="<?=$q['qid'];?>" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
@@ -93,7 +93,7 @@ foreach ($qs as $q) {
     </svg>
                      </label>
     
-                                        <label for="option4<?=$q['qid'];?>">
+                                        <label class="radio3">
                         <input type="radio"  name="<?=$q['qid'];?>" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
