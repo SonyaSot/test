@@ -2,13 +2,9 @@
 error_reporting(0);
 $qs =  array();
 $file = fopen('quests.csv', 'r');
-while (($line = fgetcsv($file)) !== FALSE) {
-  $list = array( 
-	"prompt" =>  $line[2],
-	"group" => $line[1]
-);
+
 array_push($qs,$list);
-}
+
 fclose($file);
 unset($q)
 ?>
