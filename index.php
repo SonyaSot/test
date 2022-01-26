@@ -1,28 +1,42 @@
-
-
-
+<?
+error_reporting(0);
+$qs =  array();
+$file = fopen('quests.csv', 'r');
+while (($line = fgetcsv($file)) !== FALSE) {
+  $list = array( 
+	"prompt" =>  $line[2],
+	"group" => $line[1]
+);
+array_push($qs,$list);
+}
+fclose($file);
+unset($q)
+?>
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Тест </title>  
     <link rel="stylesheet" href="style.css">
-
   </head>
   <body>
-    <div class="content">
+  <div class="content">
    <div class="content-top">
-   	<div class="content-top-category">Тест на жизнестойкость по методу Мадди</div>
-   	<div class="content-top-text">
-     <img src="img/Безымянный2.png">
-
-   </div>
-   </div>
-
-
+      <div class="content-top-category">Тест на жизнестойкость по методу Мадди</div>
+   	  <div class="content-top-text">
+        <img src="img/Безымянный2.png">
+    </div>
+  </div>
+ <? foreach ($qs as $q) { ?>
+  <!--    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="<?=$q['qid'];?>" aria-label="Slide <?=$q['qid'];?>"></button> -->
+<?}?> 
+<form action="grade.php" method="post" id="quiz">
+  <?
+  foreach ($qs as $q) {
+  ?>
 
 <div class="test__title">Начало тестирования</div>
-       
+ 
 <div class="quiz-body" id="q1">
             <p>"Я всегда контролирую ситуацию настолько, насколько это необходимо". </p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
@@ -88,12 +102,12 @@
     />
     </svg>
                     </label>
-</div>
+  </div>
 <div class="quiz-body" id="q2">
             <p>"Я предпочитаю ставить перед собой труднодостижимые цели и добиваться их" </p>
- <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
+  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
+  <label class="radio0">
                         <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
@@ -120,7 +134,7 @@
 
   <circle class="eye" cx="-60" cy="-55" r="3" />
   <circle class="eye" cx="-40" cy="-55" r="3" />
- <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+  <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
  
                            </svg>
                         
@@ -220,8 +234,8 @@
     />
     </svg>
                     </label>
-</div>
-<div class="quiz-body" id="q4">
+  </div>
+  <div class="quiz-body" id="q4">
             <p>"Испытав поражение, я буду пытаться взять реванш"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
@@ -2987,18 +3001,16 @@
    M -29 -42
    L -70 -42
    C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
-    </svg>
-                    </label>
+      "       
+  />
+   </svg>
+                   </label>
 </div>
-
-
-<input class="submit" type="submit" value="Посчитать результат">
-</label>
-  </div>
- 
-
-  </body>
-</html> 
+<?}?>
+  <label>
+  <input class="submit" type="submit" value="Посчитать результат">
+  </label>
+</form>
+</div>
+</body>
+</html>
