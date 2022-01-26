@@ -1,266 +1,149 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-body{
-
-background-color: #B2DBD5;
-
-}
-
-input{
-	opacity: 0;
-	position: absolute;
-   margin: 40px 5px 0px 50px;
-}
-p{
-	margin: 20px 0 0 20px;
-}
-svg{
-	margin: 5px 10px 0 40px;
-}
-
-
-.content{
-  max-width: 750px;
-  padding: 168px 0 137px 0;
+    body{
+	background-color: #B2DBD5;
 	
-	margin: 0px auto;
-}
-.content-top-category{
+	}
+	input[type="radio"]{
+    	opacity: 0;
+		position: absolute;
+	   margin: 40px 5px 0px 50px;
+	}
+	
+	p{
+		margin: 20px 0 0 20px;
+	}
+	svg{
+		margin: 5px 10px 0 40px;
+	}
+	
+	
+	.content{
+	  max-width: 650px;
+	  padding: 100px 0 137px 0;
+		
+		margin: 0px auto;
+	}
+	.content-top-category{
+		color: #006C84;
+	   font-weight: 700;
+	   font-size: 40px;
+		max-width: 725px;
+		margin: 10px;
+	}
+	
+	.content-top-text{
 	color: #006C84;
-   font-weight: 700;
-   font-size: 40px;
-	max-width: 725px;
-	margin: 10px;
-}
-
-.content-top-text{
-color: #006C84;
-	font-size: 34px;
+		font-size: 34px;
+		line-height: 40px;
+		max-width: 725px;
+		margin: 10px;
+	   font-family: Micra, Helvetica, Arial, sans-serif;
+	}
+	.test__title{
+	  font-size: 40px;
 	line-height: 40px;
-	max-width: 725px;
-	margin: 10px;
-   font-family: Micra, Helvetica, Arial, sans-serif;
-}
-.test__title{
-  font-size: 40px;
-line-height: 40px;
-color: #006C84;
-text-align: center;
-margin: 70px 0 0 0;
-}
-
- .quiz-body {
-	color: #B2DBD5;
-   font-weight: 700;
-   font-size: 27px;
-	max-width: 700px;
-	margin: 10px;
-	font-family: 'Roboto', sans-serif;
-	border: 1px solid #2B616D;
-	background-color: #2B616D;
-	border-radius: 30px;
-	box-shadow: 3px 2px 1px rgba(0, 0, 0,0.5);
-
-}
-.answers-wrapper{
 	color: #006C84;
-   font-weight: 700;
-   font-size: 20px;
-	max-width: 725px;
-	margin: 10px;
-	font-family: 'Roboto', sans-serif;
-}
+	text-align: center;
+	margin: 10px 0 0 0;
+	}
+	
+	 .quiz-body {
+		color: #B2DBD5;
+	   font-weight: 700;
+	   font-size: 27px;
+		max-width: 700px;
+		margin: 10px;
+		font-family: 'Roboto', sans-serif;
+		border: 1px solid #2B616D;
+		background-color: #2B616D;
+		border-radius: 30px;
+		box-shadow: 3px 2px 8px rgba(0, 0, 0,0.5);
+	
+	}
+	.answers-wrapper{
+		color: #006C84;
+	   font-weight: 700;
+	   font-size: 20px;
+		max-width: 725px;
+		margin: 10px;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	svg{
+		fill: rgb(242, 242, 242);
+	}
 
-.gingerbread .body1 {
-  fill: #fff; 
+	
+	.gingerbread .eye {
+	  fill: black;
+	}
+	
+	.gingerbread .mouth {
+	  fill: none;
+	  stroke: black;
+	  stroke-width: 2px;
+	
+	}
+	input[type="radio"] + svg {
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	}
 
-}
-.gingerbread .body2 {
-  fill: #fff; 
-
-}
-.gingerbread .body3 {
-  fill: #fff; 
-
-}
-.gingerbread .body4 {
-  fill: #fff; 
-
-}
-
-.gingerbread .eye {
-  fill: black;
-}
-
-.gingerbread .mouth {
-  fill: none;
-  stroke: black;
-  stroke-width: 2px;
-
-}
-
-.gingerbread .body1:active {
-  fill:#B22222; 
-
-}
-.gingerbread .body2:hover {
-  fill: #FF6347; 
-
-}
-.gingerbread .body3:hover {
-  fill: #FF8C00; 
-
-}
-.gingerbread .body4:hover {
-  fill: #3CB371;
-}
-
-ul{
-	color: #333333;
-   max-width: 700px;
-	background-color: #FFF0F5;
-	border-radius: 30px;
-	box-shadow: 3px 2px 1px rgba(0, 0, 0,0.5);
-
-}
-span{
-display: block;
-font-size: 23px;	
-font-weight: 700;
-font-family: 'Roboto', sans-serif;
-text-align: left;
-border: 1px solid #000;
-
-}
-
-input[class="super-happy"]:hover + svg,
-input[class="super-happy"]:checked + svg,
-input[class="super-happy"]:focus + svg {
-	fill: rgb(0, 109, 217);
-}
-
-input[class="happy"]:hover + svg,
-input[class="happy"]:checked + svg,
-input[class="happy"]:focus + svg {
-	fill: rgb(0, 204, 79);
-}
-
-input[class="neutral"]:hover + svg,
-input[class="neutral"]:checked + svg,
-input[class="neutral"]:focus + svg {
+	input + svg {
+	cursor: pointer;
+	}
+	
+	input[class="no"]:hover + svg,
+	input[class="no"]:checked + svg,
+	input[class="no"]:focus + svg {
+	fill: #B22222;
+	}
+	input[class="rather not"]:hover + svg,
+	input[class="rather not"]:checked + svg,
+	input[class="rather not"]:focus + svg {
+	fill: #FF8C00;
+	}
+	
+    input[class="rather yes"]:hover + svg,
+    input[class="rather yes"]:checked + svg,
+    input[class="rather yes"]:focus + svg {
 	fill: rgb(232, 214, 0);
-}
-
-input[class="sad"]:hover + svg,
-input[class="sad"]:checked + svg,
-input[class="sad"]:focus + svg {
-	fill: rgb(229, 132, 0);
-}
-
-input[class="super-sad"]:hover + svg,
-input[class="super-sad"]:checked + svg,
-input[class="super-sad"]:focus + svg {
-	fill: rgb(239, 42, 16);
-}
+    }
+	
+	input[class="yes"]:hover + svg,
+	input[class="yes"]:checked + svg,
+	input[class="yes"]:focus + svg {
+		fill: rgb(0, 204, 79);
+	}
 
 
-
-@media screen and (max-width: 650px) and (max-height: 700px) {
-	body,
-	html {
-		font-size: 0.7rem;
+	ul{
+		color: #333333;
+	   max-width: 700px;
+		background-color: #FFF0F5;
+		border-radius: 30px;
+		box-shadow: 3px 2px 1px rgba(0, 0, 0,0.5);
+	
 	}
-	header h1 {
-		font-size: 4em;
+	span{
+	display: block;
+	font-size: 23px;	
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	border: 1px solid #000;
+	
 	}
-	footer p {
-		font-size: 2em;
+	.submit{
+		color: #B2DBD5;
+		font-weight: 700;
+		font-size: 27px;
+		 max-width: 700px;
+		 margin: 10px;
+		 padding: 10px;
+		 font-family: 'Roboto', sans-serif;
+		 border: 1px solid #2B616D;
+		 background-color: #2B616D;
+		 border-radius: 30px;
+		 box-shadow: 3px 2px 8px rgba(0, 0, 0,0.5);
 	}
-}
-
-@media screen and (max-height: 700px) {
-	body,
-	html {
-		font-size: 0.7rem;
-	}
-	header h1 {
-		font-size: 4em;
-	}
-	footer p {
-		font-size: 2em;
-	}
-}
-
-@media screen and (max-width: 650px) {
-	body,
-	html {
-		font-size: 0.7rem;
-	}
-	header h1 {
-		font-size: 4em;
-	}
-	footer p {
-		font-size: 2em;
-	}
-}
-
-@media screen and (max-width: 450px) and (max-height: 550px) {
-	body,
-	html {
-		font-size: 0.6rem;
-	}
-	header h1 {
-		font-size: 4.6em;
-	}
-	footer p {
-		font-size: 3em;
-	}
-}
-
-@media screen and (max-height: 550px) {
-	body,
-	html {
-		font-size: 0.6rem;
-	}
-	header h1 {
-		font-size: 4.6em;
-	}
-	footer p {
-		font-size: 3em;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	body,
-	html {
-		font-size: 0.6rem;
-	}
-	header h1 {
-		font-size: 4.6em;
-	}
-	footer p {
-		font-size: 3em;
-	}
-}
-
-@media screen and (max-width: 400px) and (max-height: 500px) {
-	body,
-	html {
-		height: 500px;
-		width: 400px;
-	}
-}
-
-@media screen and (max-height: 500px) {
-	body,
-	html {
-		height: 500px;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	body,
-	html {
-		/* width: 400px; */
-	}
-}
+ 
