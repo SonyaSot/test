@@ -36,288 +36,261 @@ unset($q)
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
  <label for="option10">
-                        <input type="radio"  name="1" id="option10"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
-                      
-                    </label>
+    <input type="radio"  name="1" id="option10"  value="0" class="no"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body1" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+        d="
+        M -60 -30
+        C -60 -49 -38 -44 -39 -30
+        
+        "
+        />
+     </svg>
+  </label>
         
   
-              <label for="option11">
-                        <input type="radio"  name="1" id="option11" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
- <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                      <label for="option12">
-                      <input type="radio"  name="1" id="option12" value="2" class="rather yes"/>
-     <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+  <label for="option11">
+    <input type="radio"  name="1" id="option11" value="1" class="rather not"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body2" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
     
-                                        <label for="option13">
-                        <input type="radio"  name="1" id="option13" value="3" class="yes"/>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body4" cx="-50" cy="-50" r="30" />
+      </svg>
+  </label>
+                      
+  <label for="option12">
+      <input type="radio"  name="1" id="option12" value="2" class="rather yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+      </svg>
+  </label>
+    
+  <label for="option13">
+    <input type="radio"  name="1" id="option13" value="3" class="yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body4" cx="-50" cy="-50" r="30" />
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -29 -42
-   L -70 -42
-   C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
-    </svg>
-                    </label>
-  </div>
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+        d="
+        M -29 -42
+        L -70 -42
+        C -60 -20 -30 -30 -30 -41
+        
+          "
+          />
+      </svg>
+  </label>
+</div>
+
 <div class="quiz-body" id="q2">
             <p>"Я предпочитаю ставить перед собой труднодостижимые цели и добиваться их" </p>
   <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
   <label for="option14">
-                        <input type="radio"  name="2" id="option14"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
+      <input type="radio"  name="2" id="option14"  value="0" class="no"/>
+        <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+            <circle class="body1" cx="-50" cy="-50" r="30" />
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
-                      
-                    </label>
+            <circle class="eye" cx="-60" cy="-55" r="3" />
+            <circle class="eye" cx="-40" cy="-55" r="3" />
+            <path class="mouth" 
+              d="
+              M -60 -30
+              C -60 -49 -38 -44 -39 -30
+            
+              "
+              />
+        </svg>
+  </label>
         
   
-                    <label for="option15">
-                        <input type="radio"  name="2" id="option15" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
+  <label for="option15">
+    <input type="radio"  name="2" id="option15" value="1" class="rather not"/>
+       <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+          <circle class="body2" cx="-50" cy="-50" r="30" />
+          <circle class="eye" cx="-60" cy="-55" r="3" />
+          <circle class="eye" cx="-40" cy="-55" r="3" />
+          <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+        </svg>
+  </label>
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                     <label for="option16"> 
-                      <input type="radio"  name="2" id="option16" value="2" class="rather yes"/>
-     <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+  <label for="option16"> 
+    <input type="radio"  name="2" id="option16" value="2" class="rather yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+      </svg>
+  </label>
     
-                                        <label for="option17">
-                        <input type="radio"  name="2" id="option17" value="3" class="yes"/>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body4" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -29 -42
-   L -70 -42
-   C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
-    </svg>
+  <label for="option17">
+    <input type="radio"  name="2" id="option17" value="3" class="yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body4" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -29 -42
+          L -70 -42
+          C -60 -20 -30 -30 -30 -41
+          
+          "
+        />
+      </svg>
   </label>
 </div>
+
 <div class="quiz-body" id="q3">
             <p>"Я всегда уверен, что смогу воплотить в жизнь то,что задумал" </p>
   <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
   <label for="option18">
-                        <input type="radio"  name="3" id="option18"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
-                      
-                    </label>
+    <input type="radio"  name="3" id="option18"  value="0" class="no"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body1" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -60 -30
+          C -60 -49 -38 -44 -39 -30
+          
+          "
+        />
+      </svg>
+  </label>
         
   
-                    <label for="option19">
-                        <input type="radio"  name="3" id="option19" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
+  <label for="option19">
+    <input type="radio"  name="3" id="option19" value="1" class="rather not"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body2" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+      
+      </svg>
+  </label>
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                     <label for="option20"> 
-                      <input type="radio"  name="3" id="option20" value="2" class="rather yes"/>
-     <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+  
+  <label for="option20"> 
+    <input type="radio"  name="3" id="option20" value="2" class="rather yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+      </svg>
+  </label>
     
-                                        <label for="option21">
-                        <input type="radio"  name="3" id="option21" value="3" class="yes"/>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body4" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -29 -42
-   L -70 -42
-   C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
+  <label for="option21">
+    <input type="radio"  name="3" id="option21" value="3" class="yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body4" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -29 -42
+          L -70 -42
+          C -60 -20 -30 -30 -30 -41
+          
+           "
+        />
     </svg>
   </label>
 </div>
+
 <div class="quiz-body" id="q4">
             <p>"Испытав поражение, я буду пытаться взять реванш"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
  <label for="option22">
-                        <input type="radio"  name="4" id="option22"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
-                      
-                    </label>
-        
+    <input type="radio"  name="4" id="option22"  value="0" class="no"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body1" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -60 -30
+          C -60 -49 -38 -44 -39 -30
+          
+            "
+         />
+      </svg>
+  </label>  
   
-              <label for="option23">
-                        <input type="radio"  name="4" id="option23" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
+  <label for="option23">
+    <input type="radio"  name="4" id="option23" value="1" class="rather not"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body2" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+      </svg>               
+  </label>
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
- <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                      <label for="option24">
-                      <input type="radio"  name="4" id="option24" value="2" class="rather yes"/>
-     <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+  <label for="option24">
+    <input type="radio"  name="4" id="option24" value="2" class="rather yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+      </svg>
+  </label>
     
-                                        <label for="option25">
-                        <input type="radio"  name="4" id="option25" value="3" class="yes"/>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body4" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -29 -42
-   L -70 -42
-   C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
-    </svg>
-                    </label>
-  </div>
+  <label for="option25">
+    <input type="radio"  name="4" id="option25" value="3" class="yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body4" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -29 -42
+          L -70 -42
+          C -60 -20 -30 -30 -30 -41
+          
+          "
+        />
+      </svg>
+  </label>
+ </div>
 
 <div class="quiz-body" id="q5">
             <p>"Я всегда могу повлиять на результат того, что происходит вокруг"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
  <label for="option26">
-                        <input type="radio"  name="5" id="option26"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
+     <input type="radio"  name="5" id="option26"  value="0" class="no"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body1" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -60 -30
+          C -60 -49 -38 -44 -39 -30
+          
+            "
+        />
+      </svg>
                       
-                    </label>
+  </label>
         
   
               <label for="option27">
@@ -1376,8 +1349,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option91">
+                        <input type="radio"  name="21" id="option91" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1388,8 +1361,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option92">
+                      <input type="radio"  name="21" id="option92" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1400,8 +1373,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label for="option93">
+                        <input type="radio"  name="21" id="option93" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1422,8 +1395,8 @@ unset($q)
             <p>"Мне всегда есть чем заняться"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option94">
+                        <input type="radio"  name="22" id="option94"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1442,8 +1415,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option95">
+                        <input type="radio"  name="22" id="option95" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1454,8 +1427,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option96">
+                      <input type="radio"  name="22" id="option96" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1466,8 +1439,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option97">
+                        <input type="radio"  name="22" id="option97" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1488,8 +1461,8 @@ unset($q)
             <p>"Как правило,окружающие слушают меня внимательно"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option98">
+                        <input type="radio"  name="23" id="option98"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1508,8 +1481,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option99">
+                        <input type="radio"  name="23" id="option99" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1520,8 +1493,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option100">
+                      <input type="radio"  name="23" id="option100" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1532,8 +1505,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option101">
+                        <input type="radio"  name="23" id="option101" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1554,8 +1527,8 @@ unset($q)
             <p>"Окружающие меня недооценивают"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option102">
+                        <input type="radio"  name="24" id="option102"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1574,8 +1547,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option103">
+                        <input type="radio"  name="24" id="option103" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1586,8 +1559,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option104">
+                      <input type="radio"  name="24" id="option104" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1598,8 +1571,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option105">
+                        <input type="radio"  name="24" id="option105" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1620,8 +1593,8 @@ unset($q)
             <p>"Иногда мне кажется,что никому нет до меня дела "</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option106">
+                        <input type="radio"  name="25" id="option106"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1640,8 +1613,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label for="option107">
+                        <input type="radio"  name="25" id="option107" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1652,8 +1625,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option108">
+                      <input type="radio"  name="25" id="option108" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1664,8 +1637,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label for="option109">
+                        <input type="radio"  name="25" id="option109" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1686,8 +1659,8 @@ unset($q)
             <p>"Порой я так устаю,что уже ничто не может заинтересовать меня"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option110">
+                        <input type="radio"  name="26" id="option110"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1706,8 +1679,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option111">
+                        <input type="radio"  name="26" id="option111" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1718,8 +1691,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option112">
+                      <input type="radio"  name="26" id="option112" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1730,8 +1703,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option113">
+                        <input type="radio"  name="26" id="option113" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1752,8 +1725,8 @@ unset($q)
             <p>"Порой все,что я делаю,кажется мне бесполезным"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option114">
+                        <input type="radio"  name="27" id="option114"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1772,8 +1745,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option115">
+                        <input type="radio"  name="27" id="option115" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1784,8 +1757,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option116">
+                      <input type="radio"  name="27" id="option116" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1796,8 +1769,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option117">
+                        <input type="radio"  name="27" id="option117" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1818,8 +1791,8 @@ unset($q)
             <p>"Часто,даже хорошо выспавшись,я с трудом заставляю себя встать с постели"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option118">
+                        <input type="radio"  name="28" id="option118"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1838,8 +1811,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option119">
+                        <input type="radio"  name="28" id="option119" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1850,8 +1823,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option120">
+                      <input type="radio"  name="28" id="option120" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1862,8 +1835,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option121">
+                        <input type="radio"  name="28" id="option121" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1884,8 +1857,8 @@ unset($q)
             <p>"Вечером я часто чувствую себя совершенно разбитым"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option122">
+                        <input type="radio"  name="29" id="option122"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1904,8 +1877,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option123">
+                        <input type="radio"  name="29" id="option123" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1916,8 +1889,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option124">
+                      <input type="radio"  name="29" id="option124" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1928,8 +1901,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option125">
+                        <input type="radio"  name="29" id="option125" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -1950,8 +1923,8 @@ unset($q)
             <p>"Мне трудно сближаться с другими людьми"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option126">
+                        <input type="radio"  name="30" id="option126"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -1970,8 +1943,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option127">
+                        <input type="radio"  name="30" id="option127" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -1982,8 +1955,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option128">
+                      <input type="radio"  name="30" id="option128" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -1994,8 +1967,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option129">
+                        <input type="radio"  name="30" id="option129" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2016,8 +1989,8 @@ unset($q)
             <p>"Я всегда могу повлиять на результат того,что происходит вокруг"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option130">
+                        <input type="radio"  name="31" id="option130"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2036,8 +2009,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option131">
+                        <input type="radio"  name="31" id="option131" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2048,8 +2021,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option132">
+                      <input type="radio"  name="31" id="option132" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2060,8 +2033,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option133">
+                        <input type="radio"  name="31" id="option133" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2082,8 +2055,8 @@ unset($q)
             <p>"Мне не хватает упорства закончить начатое"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option134">
+                        <input type="radio"  name="32" id="option134"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2102,8 +2075,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option135">
+                        <input type="radio"  name="32" id="option135" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2114,8 +2087,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option136">
+                      <input type="radio"  name="32" id="option136" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2126,8 +2099,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option137">
+                        <input type="radio"  name="32" id="option137" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2148,8 +2121,8 @@ unset($q)
             <p>"Бывает, жизнь кажется мне скучной и бесцветной"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option138">
+                        <input type="radio"  name="33" id="option138"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2168,8 +2141,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option139">
+                        <input type="radio"  name="33" id="option139" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2180,8 +2153,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option140">
+                      <input type="radio"  name="33" id="option140" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2192,8 +2165,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label for="option141">
+                        <input type="radio"  name="33" id="option141" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2214,8 +2187,8 @@ unset($q)
             <p>"Как правило,я работаю с удовольствием"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option142">
+                        <input type="radio"  name="34" id="option142"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2234,8 +2207,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label for="option143">
+                        <input type="radio"  name="34" id="option143" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2246,8 +2219,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option144">
+                      <input type="radio"  name="34" id="option144" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2258,8 +2231,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option145">
+                        <input type="radio"  name="34" id="option145" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2280,8 +2253,8 @@ unset($q)
             <p>"Иногда я чувствую себя лишним даже в кругу друзей"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label for="option146">
+                        <input type="radio"  name="35" id="option146"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2300,8 +2273,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option147">
+                        <input type="radio"  name="35" id="option147" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2312,8 +2285,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option148">
+                      <input type="radio"  name="35" id="option148" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2324,8 +2297,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option149">
+                        <input type="radio"  name="35" id="option149" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2346,8 +2319,8 @@ unset($q)
             <p>"Я охотно берусь воплощать новые идеи"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option150">
+                        <input type="radio"  name="36" id="option150"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2366,8 +2339,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option151">
+                        <input type="radio"  name="36" id="option151" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2378,8 +2351,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option152">
+                      <input type="radio"  name="36" id="option152" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2390,8 +2363,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option153">
+                        <input type="radio"  name="36" id="option153" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2412,8 +2385,8 @@ unset($q)
             <p>"Неожиданности дарят мне интерес к жизни"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option154">
+                        <input type="radio"  name="37" id="option154"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2432,8 +2405,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option155">
+                        <input type="radio"  name="37" id="option155" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2444,8 +2417,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option156">
+                      <input type="radio"  name="37" id="option156" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2456,8 +2429,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option157">
+                        <input type="radio"  name="37" id="option157" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2478,8 +2451,8 @@ unset($q)
             <p>"Меня раздражают события,из за которых я вынужден менять свой распорядок дня"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label for="option158">
+                        <input type="radio"  name="38" id="option158"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2498,8 +2471,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option159">
+                        <input type="radio"  name="38" id="option159" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2510,8 +2483,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option160">
+                      <input type="radio"  name="38" id="option160" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2522,8 +2495,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option161">
+                        <input type="radio"  name="38" id="option161" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2544,8 +2517,8 @@ unset($q)
             <p>"Лучше синица в руках,чем журавль в небе"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option162">
+                        <input type="radio"  name="39" id="option162"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2564,8 +2537,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option163">
+                        <input type="radio"  name="39" id="option163" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2576,8 +2549,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option164">
+                      <input type="radio"  name="39" id="option164" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2588,8 +2561,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option165">
+                        <input type="radio"  name="39" id="option165" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2610,8 +2583,8 @@ unset($q)
             <p>"Мне кажется,я не живу полной жизнью,а только играю роль"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option166">
+                        <input type="radio"  name="40" id="option166"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2630,8 +2603,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option167">
+                        <input type="radio"  name="40" id="option167" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2642,8 +2615,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option168">
+                      <input type="radio"  name="40" id="option168" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2654,8 +2627,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option169">
+                        <input type="radio"  name="40" id="option169" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2676,8 +2649,8 @@ unset($q)
             <p>"Мне кажется, если бы в прошлом у меня было меньше разочарований и невзгод, мне было бы сейчас легче жить на свете"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label for="option170">
+                        <input type="radio"  name="41" id="option170"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2696,8 +2669,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label for="option171">
+                        <input type="radio"  name="41" id="option171" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2708,8 +2681,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option172">
+                      <input type="radio"  name="41" id="option172" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2720,8 +2693,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option173">
+                        <input type="radio"  name="41" id="option173" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2742,8 +2715,8 @@ unset($q)
             <p>"Я часто сожалею о том, что уже сделано"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option174">
+                        <input type="radio"  name="42" id="option174"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2762,8 +2735,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option175">
+                        <input type="radio"  name="42" id="option175" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2774,8 +2747,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option176">
+                      <input type="radio"  name="42" id="option176" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2786,8 +2759,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label for="option177">
+                        <input type="radio"  name="42" id="option177" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2808,8 +2781,8 @@ unset($q)
             <p>"Если бы я мог, я многое изменил бы в прошлом"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option178">
+                        <input type="radio"  name="43" id="option178"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2828,8 +2801,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option179">
+                        <input type="radio"  name="43" id="option179" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2840,8 +2813,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option180">
+                      <input type="radio"  name="43" id="option180" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2852,8 +2825,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option181">
+                        <input type="radio"  name="43" id="option181" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2874,8 +2847,8 @@ unset($q)
             <p>"Мои мечты редко сбываются"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label  for="option182">
+                        <input type="radio"  name="44" id="option182"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2894,8 +2867,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option183">
+                        <input type="radio"  name="44" id="option183" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2906,8 +2879,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label for="option184">
+                      <input type="radio"  name="44" id="option184" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2918,8 +2891,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option185">
+                        <input type="radio"  name="44" id="option185" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
@@ -2940,8 +2913,8 @@ unset($q)
             <p>"Порой я мечтаю о спокойной размеренной жизни"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label class="radio0">
-                        <input type="radio"  name="1" id="option1<?=$q['qid'];?>"  value="0" class="no"/>
+ <label for="option186">
+                        <input type="radio"  name="45" id="option186"  value="0" class="no"/>
     </svg>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body1" cx="-50" cy="-50" r="30" />
@@ -2960,8 +2933,8 @@ unset($q)
                     </label>
         
   
-              <label class="radio1">
-                        <input type="radio"  name="2" id="option2<?=$q['qid'];?>" value="1" class="rather not"/>
+              <label  for="option187">
+                        <input type="radio"  name="45" id="option187" value="1" class="rather not"/>
                            <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body2" cx="-50" cy="-50" r="30" />
 
@@ -2972,8 +2945,8 @@ unset($q)
                            </svg>
                         
                     </label>
-                      <label class="radio2">
-                      <input type="radio"  name="3" id="option3<?=$q['qid'];?>" value="2" class="rather yes"/>
+                      <label  for="option188">
+                      <input type="radio"  name="45" id="option188" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body3" cx="-50" cy="-50" r="30" />
 
@@ -2984,8 +2957,8 @@ unset($q)
     </svg>
                      </label>
     
-                                        <label class="radio3">
-                        <input type="radio"  name="4" id="option4<?=$q['qid'];?>" value="3" class="yes"/>
+                                        <label  for="option189">
+                        <input type="radio"  name="45" id="option189" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
 
