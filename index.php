@@ -9,7 +9,7 @@ fclose($file);
 unset($q)
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Тест </title>  
@@ -21,7 +21,7 @@ unset($q)
       <div class="content-top-category">Тест на жизнестойкость по методу Мадди</div>
    	  <div class="content-top-text">
         <img src="img/Безымянный2.png">
-    </div>
+      </div>
   </div>
   
 <form action="grade.php" method="post" id="quiz">
@@ -292,164 +292,146 @@ unset($q)
                       
   </label>
         
-  
-              <label for="option27">
-                        <input type="radio"  name="5" id="option27" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
+  <label for="option27">
+    <input type="radio"  name="5" id="option27" value="1" class="rather not"/>
+        <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+          <circle class="body2" cx="-50" cy="-50" r="30" />
+          <circle class="eye" cx="-60" cy="-55" r="3" />
+          <circle class="eye" cx="-40" cy="-55" r="3" />
+          <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+        
+        </svg>                     
+  </label>
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
- <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                      <label for="option28">
-                      <input type="radio"  name="5" id="option28" value="2" class="rather yes"/>
-     <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+  <label for="option28">
+    <input type="radio"  name="5" id="option28" value="2" class="rather yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+       </svg>
+  </label>
     
-                                        <label for="option29">
-                        <input type="radio"  name="5" id="option29" value="3" class="yes"/>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body4" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -29 -42
-   L -70 -42
-   C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
-    </svg>
-                    </label>
+  <label for="option29">
+    <input type="radio"  name="5" id="option29" value="3" class="yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body4" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -29 -42
+          L -70 -42
+          C -60 -20 -30 -30 -30 -41
+          
+            "
+          />
+        </svg>  
+                   
+  </label>
 </div>
+
 <div class="quiz-body" id="q6">
             <p>"Друзья уважают меня за упорство и непреклонность"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label for="option30">
-                        <input type="radio"  name="6" id="option30"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
-                      
-                    </label>
+   <label for="option30">
+      <input type="radio"  name="6" id="option30"  value="0" class="no"/>
+        <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+          <circle class="body1" cx="-50" cy="-50" r="30" />
+          <circle class="eye" cx="-60" cy="-55" r="3" />
+          <circle class="eye" cx="-40" cy="-55" r="3" />
+          <path class="mouth" 
+            d="
+            M -60 -30
+            C -60 -49 -38 -44 -39 -30
+            
+              "
+          />
+        </svg>                
+  </label>
         
-  
-              <label for="option31">
-                        <input type="radio"  name="6" id="option31" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
+  <label for="option31">
+    <input type="radio"  name="6" id="option31" value="1" class="rather not"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body2" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+      </svg>     
+  </label>
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
- <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                      <label for="option32">
-                      <input type="radio"  name="6" id="option32" value="2" class="rather yes"/>
-     <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+  <label for="option32">
+    <input type="radio"  name="6" id="option32" value="2" class="rather yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+        
+      </svg>
+  </label>
     
-                                        <label for="option33">
-                        <input type="radio"  name="6" id="option33" value="3" class="yes"/>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body4" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -29 -42
-   L -70 -42
-   C -60 -20 -30 -30 -30 -41
-   
-    "
-    />
-    </svg>
-                    </label>
+  <label for="option33">
+    <input type="radio"  name="6" id="option33" value="3" class="yes"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body4" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -29 -42
+          L -70 -42
+          C -60 -20 -30 -30 -30 -41
+          
+            "
+        />
+      </svg>
+  </label>
 </div>
+
 <div class="quiz-body" id="q7">
             <p>"Я часто не уверен в собственных решениях"</p>
  <!-- <input type="radio" class="btn-check" name="options<?=$q['qid'];?>" id="option1<?=$q['qid'];?>" value="1" autocomplete="off" />
   <label class="btn btn-secondary btn-danger" for="option1<?=$q['qid'];?>">Абсолютно<br> не согласен(а)</label> -->
- <label for="option34">
-                        <input type="radio"  name="7" id="option34"  value="0" class="no"/>
-    </svg>
-                                                 <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body1" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <path class="mouth" 
-  d="
-   M -60 -30
-   C -60 -49 -38 -44 -39 -30
-   
-    "
-    />
-    </svg>
-                      
-                    </label>
-        
+  <label for="option34">
+    <input type="radio"  name="7" id="option34"  value="0" class="no"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body1" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <path class="mouth" 
+          d="
+          M -60 -30
+          C -60 -49 -38 -44 -39 -30
+          
+            "
+        />
+      </svg>   
+  </label>
   
-              <label for="option35">
-                        <input type="radio"  name="7" id="option35" value="1" class="rather not"/>
-                           <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body2" cx="-50" cy="-50" r="30" />
+  <label for="option35">
+    <input type="radio"  name="7" id="option35" value="1" class="rather not"/>
+      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
+        <circle class="body2" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
+      </svg>    
+  </label>
 
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
- <rect class="mouth" x="-60" y="-40" width="20" height="5" rx="2" />
- 
-                           </svg>
-                        
-                    </label>
-                      <label for="option36">
-                      <input type="radio"  name="7" id="option36" value="2" class="rather yes"/>
+  <label for="option36">
+    <input type="radio"  name="7" id="option36" value="2" class="rather yes"/>
      <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
-  <circle class="body3" cx="-50" cy="-50" r="30" />
-
-  <circle class="eye" cx="-60" cy="-55" r="3" />
-  <circle class="eye" cx="-40" cy="-55" r="3" />
-  <circle class="mouth" cx="-50" cy="-38"  r="6" />
-   
-    </svg>
-                     </label>
+        <circle class="body3" cx="-50" cy="-50" r="30" />
+        <circle class="eye" cx="-60" cy="-55" r="3" />
+        <circle class="eye" cx="-40" cy="-55" r="3" />
+        <circle class="mouth" cx="-50" cy="-38"  r="6" />
+      </svg>
+  </label>
     
-                                        <label for="option37">
+  <label for="option37">
                         <input type="radio"  name="7" id="option37" value="3" class="yes"/>
                                                  <svg class="gingerbread" width="100" height="100" viewBox="-100 -100 100 100">
   <circle class="body4" cx="-50" cy="-50" r="30" />
