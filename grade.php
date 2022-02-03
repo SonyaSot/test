@@ -11,11 +11,23 @@
         
             <?php
                 $points = 0;
+                $control = 0;
+                $commitment = 0;
+                $challenge = 0;
+
                 foreach($_POST as $key=>$value)
                 {
                 $points = $points + $value;
+                if ($key = 1 ) { $control=$control+$value; }
+
                 }
                 echo $points;
+
+                $arhs = array(
+                  "control"=> $control,
+                  "commitment"=> $commitment,
+                  "challenge"=> $challenge,
+                );
                 ?>
         </div>
     </body>
