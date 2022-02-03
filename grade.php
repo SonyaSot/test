@@ -18,7 +18,7 @@
                 foreach($_POST as $key=>$value)
                 {
                 $points = $points + $value;
-                if ($key = 1 ) { $control=$control+$value; }
+                if ($key = 1  || $key = 1 ) { $control=$control+$value; }
 
                 }
                 echo $points;
