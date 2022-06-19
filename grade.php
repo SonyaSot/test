@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
     <body>
+      <form method="post">
         <div class="content">
             <div class="content-category">Результаты прохождения теста:</div>
         
@@ -31,5 +32,6 @@
                 );
                 ?>
         </div>
+      </form>
     </body>
 </html>
